@@ -12,14 +12,12 @@ ENV/
 .venv/
 
 # Machine Learning Models & Experiments
-*.pkl
-*.pickle
+# *.pkl - закоментовано, модель потрібна для деплою!
 *.h5
 *.hdf5
 *.joblib
-*.model
+# heart_failure_model.pkl - НЕ ігноруємо, потрібна для деплою!
 heart_failure_experiment
-heart_failure_model.pkl
 
 # Logs
 *.log

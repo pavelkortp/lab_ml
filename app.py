@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import pandas as pd
 from pycaret.classification import load_model
+import os
 
 app = Flask(__name__)
 
@@ -66,5 +67,7 @@ def predict():
 
 if __name__ == "__main__":
     print("🚀 Запуск веб-застосунку...")
-    print("📍 Відкрийте в браузері: http://127.0.0.1:8080")
-    app.run(debug=True, host="0.0.0.0", port=8080)
+    # Для локального запуску
+    port = int(os.environ.get("PORT", 8080))
+    print(f"📍 Відкрийте в браузері: http://127.0.0.1:{port}")
+    app.run(debug=True, host="0.0.0.0", port=port)

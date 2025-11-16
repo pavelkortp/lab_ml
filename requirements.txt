@@ -156,3 +156,4 @@ xxhash==3.6.0
 yellowbrick==1.5
 zipp==3.23.0
 flask==3.1.0
+gunicorn==21.2.0

@@ -100,6 +100,37 @@ lab_ml/
 - Всі залежності встановлюються через `requirements.txt`
 - Модель та експеримент можна перегенерувати запуском `main.py`
 
+## 🚀 Деплой у продакшн
+
+Хочете зробити застосунок доступним для всіх через інтернет?
+
+### Швидкий старт:
+```bash
+# 1. Завантажте на GitHub
+git add .
+git commit -m "Ready for deployment"
+git push
+
+# 2. Деплойте на Render (безкоштовно)
+# Детальна інструкція: QUICK_DEPLOY.md
+```
+
+**Платформи для деплою:**
+- ⭐ [Render](https://render.com) - Рекомендовано (безкоштовно)
+- 🚂 [Railway](https://railway.app) - Швидкий (безкоштовно)
+- 🐍 [PythonAnywhere](https://pythonanywhere.com) - Простий
+
+**Документація:**
+- 📖 [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) - Повна інструкція
+- ⚡ [QUICK_DEPLOY.md](QUICK_DEPLOY.md) - Швидкий деплой за 5 хвилин
+
+**Приклад готового URL:**
+```
+https://heart-disease-prediction.onrender.com
+```
+
+---
+
 ## 📝 Ліцензія
 
 MIT
