@@ -70,7 +70,7 @@ lightgbm==4.6.0
 llvmlite==0.45.1
 logistro==2.0.1
 MarkupSafe==3.0.3
-matplotlib==3.7.5
+matplotlib==3.9.4
 matplotlib-inline==0.2.1
 mistune==3.1.4
 narwhals==2.11.0
@@ -85,7 +85,7 @@ numpy==1.26.4
 orjson==3.11.4
 overrides==7.7.0
 packaging==25.0
-pandas==2.1.4
+pandas==2.2.3
 pandocfilters==1.5.1
 parso==0.8.5
 patsy==1.0.2
@@ -122,9 +122,9 @@ rfc3987-syntax==1.1.0
 rpds-py==0.29.0
 schemdraw==0.15
 scikit-base==0.7.8
-scikit-learn==1.4.2
+scikit-learn==1.5.2
 scikit-plot==0.3.7
-scipy==1.11.4
+scipy==1.14.1
 Send2Trash==1.8.3
 simplejson==3.20.2
 six==1.17.0
