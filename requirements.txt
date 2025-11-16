@@ -155,3 +155,4 @@ wurlitzer==3.1.1
 xxhash==3.6.0
 yellowbrick==1.5
 zipp==3.23.0
+flask==3.1.0

@@ -37,6 +37,8 @@ pip install -r requirements.txt
 
 ## 📊 Використання
 
+### Варіант 1: Тренування моделі
+
 Запустіть основний скрипт:
 ```bash
 python main.py
@@ -49,22 +51,45 @@ python main.py
 - Тюнінг найкращої моделі
 - Збереження моделі у `heart_failure_model.pkl`
 
+### Варіант 2: 🌐 Веб-застосунок
+
+Запустіть Flask застосунок:
+```bash
+python app.py
+```
+
+Потім відкрийте у браузері: `http://localhost:8080`
+
+Веб-застосунок дозволяє:
+- ✅ Ввести дані пацієнта через зручну форму
+- ✅ Отримати миттєве передбачення ризику
+- ✅ Побачити рекомендації
+- ✅ Використовувати з будь-якого пристрою
+
+Детальніше: [WEB_APP_README.md](WEB_APP_README.md)
+
 ## 📁 Структура проекту
 
 ```
 lab_ml/
-├── main.py                      # Основний скрипт
-├── heart.csv                    # Набір даних
-├── requirements.txt             # Python залежності
-├── .tool-versions              # Версія Python (asdf)
-├── heart_failure_model.pkl     # Збережена модель (не в git)
-├── heart_failure_experiment    # Експеримент PyCaret (не в git)
-└── logs.log                    # Лог файли (не в git)
+├── app.py                             # 🌐 Flask веб-застосунок
+├── main.py                            # 🔧 Скрипт тренування моделі
+├── heart.csv                          # 📊 Набір даних
+├── requirements.txt                   # 📦 Python залежності
+├── .tool-versions                     # 🐍 Версія Python (asdf)
+├── heart_disease_prediction.ipynb     # 📓 Jupyter notebook
+├── templates/
+│   └── index.html                     # 🎨 HTML інтерфейс
+├── heart_failure_model.pkl            # 🤖 Збережена модель (не в git)
+├── heart_failure_experiment           # 🔬 Експеримент PyCaret (не в git)
+├── WEB_APP_README.md                  # 📖 Документація веб-застосунку
+└── logs.log                           # 📝 Лог файли (не в git)
 ```
 
 ## 🔧 Основні бібліотеки
 
 - **PyCaret** - AutoML бібліотека
+- **Flask** - Веб-фреймворк для застосунку
 - **Pandas** - Обробка даних
 - **Scikit-learn** - ML алгоритми
 - **Jupyter** - Інтерактивна розробка

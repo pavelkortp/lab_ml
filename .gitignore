@@ -52,7 +52,13 @@ edb.chk
 # data/
 
 # PyCaret specific
-*.html
+# *.html - закоментовано, бо потрібен templates/index.html
+
+# Flask
+__pycache__/
+*.pyc
+instance/
+.webassets-cache
 
 # Pytest
 .pytest_cache/
