@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Machine Learning Models & Experiments
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+*.model
+heart_failure_experiment
+heart_failure_model.pkl
+
+# Logs
+*.log
+logs/
+logs.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+edb.chk
+
+# Data files (uncomment if you want to ignore data)
+# *.csv
+# *.xlsx
+# *.json
+# data/
+
+# PyCaret specific
+*.html
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
