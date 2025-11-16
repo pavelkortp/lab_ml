@@ -66,7 +66,7 @@ python app.py
 - ✅ Побачити рекомендації
 - ✅ Використовувати з будь-якого пристрою
 
-Детальніше: [WEB_APP_README.md](WEB_APP_README.md)
+Детальніше: [doc/WEB_APP_README.md](doc/WEB_APP_README.md)
 
 ## 📁 Структура проекту
 
@@ -80,9 +80,14 @@ lab_ml/
 ├── heart_disease_prediction.ipynb     # 📓 Jupyter notebook
 ├── templates/
 │   └── index.html                     # 🎨 HTML інтерфейс
+├── doc/                               # 📚 Документація
+│   ├── WEB_APP_README.md              # Веб-застосунок
+│   ├── DEPLOYMENT_GUIDE.md            # Гід по деплою
+│   ├── QUICK_DEPLOY.md                # Швидкий деплой
+│   ├── TEST_CASES.md                  # Тестові випадки
+│   └── ...                            # Інші документи
 ├── heart_failure_model.pkl            # 🤖 Збережена модель (не в git)
 ├── heart_failure_experiment           # 🔬 Експеримент PyCaret (не в git)
-├── WEB_APP_README.md                  # 📖 Документація веб-застосунку
 └── logs.log                           # 📝 Лог файли (не в git)
 ```
 
@@ -112,7 +117,7 @@ git commit -m "Ready for deployment"
 git push
 
 # 2. Деплойте на Render (безкоштовно)
-# Детальна інструкція: QUICK_DEPLOY.md
+# Детальна інструкція: doc/QUICK_DEPLOY.md
 ```
 
 **Платформи для деплою:**
@@ -121,8 +126,10 @@ git push
 - 🐍 [PythonAnywhere](https://pythonanywhere.com) - Простий
 
 **Документація:**
-- 📖 [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) - Повна інструкція
-- ⚡ [QUICK_DEPLOY.md](QUICK_DEPLOY.md) - Швидкий деплой за 5 хвилин
+- 📖 [doc/DEPLOYMENT_GUIDE.md](doc/DEPLOYMENT_GUIDE.md) - Повна інструкція
+- ⚡ [doc/QUICK_DEPLOY.md](doc/QUICK_DEPLOY.md) - Швидкий деплой за 5 хвилин
+- 🧪 [doc/TEST_CASES.md](doc/TEST_CASES.md) - Тестові випадки
+- 📋 [doc/DEMO_CHEATSHEET.md](doc/DEMO_CHEATSHEET.md) - Шпаргалка для демо
 
 **Приклад готового URL:**
 ```

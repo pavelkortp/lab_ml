@@ -1,0 +1,38 @@
+# 📚 Швидкі команди для документації
+
+# Показати всю документацію
+alias doc-list='ls -lh doc/'
+
+# Відкрити індекс документації
+alias doc='cat doc/README.md'
+
+# Швидкий деплой
+alias doc-deploy='cat doc/QUICK_DEPLOY.md'
+
+# Тестові дані для демо
+alias doc-demo='cat doc/QUICK_DEMO.txt'
+
+# Повний гід по деплою
+alias doc-guide='cat doc/DEPLOYMENT_GUIDE.md'
+
+# Шпаргалка для презентації
+alias doc-cheat='cat doc/DEMO_CHEATSHEET.md'
+
+# Візуальна схема деплою
+alias doc-visual='cat doc/DEPLOY_VISUAL.txt'
+
+# Показати структуру проекту
+alias project='cat PROJECT_STRUCTURE.txt'
+
+# ═══════════════════════════════════════════════════════════════
+# ВИКОРИСТАННЯ:
+# 
+# 1. Додайте в ваш ~/.zshrc або ~/.bashrc:
+#    source /Users/a/Public/own/lab_ml/.doc-shortcuts
+#
+# 2. Або використовуйте команди напряму:
+#    cat doc/README.md
+#    cat doc/QUICK_DEPLOY.md
+#    cat doc/QUICK_DEMO.txt
+# ═══════════════════════════════════════════════════════════════
+

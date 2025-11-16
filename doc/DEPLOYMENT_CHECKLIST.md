@@ -180,5 +180,5 @@ https://ваш-сервіс.onrender.com
 
 **Готово! 🎉 Ваш ML застосунок у продакшні!**
 
-*Детальніше: [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)*
+*Детальніше: [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)*
 

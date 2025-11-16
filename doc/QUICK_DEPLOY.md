@@ -99,5 +99,5 @@ Render автоматично передеплоїть! ⚡
 
 ---
 
-**Детальніше:** [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md)
+**Детальніше:** [DEPLOYMENT_GUIDE.md](./DEPLOYMENT_GUIDE.md)
 
